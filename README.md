@@ -159,6 +159,13 @@ from tqdm.auto import tqdm
 4. **Сохранение лучшей модели**:
    - Сохраняет лучшую модель в файл `best_model.pkl`.
 
+![image](https://github.com/user-attachments/assets/8fd83aab-7d32-4603-bba0-2636c013926f)
+
+![image](https://github.com/user-attachments/assets/7d0c8b7c-8e5e-4e9d-9033-8089e27cd074)
+
+![image](https://github.com/user-attachments/assets/230b478f-57f2-4261-9643-8fdaad3d4afb)
+
+Как можно заметить по гистограммам, модель ALS выдает более разнообразные рекомендации пользователям, поэтому на тестовых данных будем использовать ее.
 
 ## Главный скрипт `main.py`
 
